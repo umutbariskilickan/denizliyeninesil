@@ -1,76 +1,54 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Denizli Yeni Nesil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Denizli Yeni Nesil{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/reset.css">
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-
-    <section class="landing">
-        <div class="landing-card">
-            <div class="landing-topbar">
-                <a class="pill" href="#" title="WhatsApp">
-                💬 WhatsApp: <strong>0 (5xx) xxx xx xx</strong>
-                </a>
-                <a class="pill" href="tel:+905XXXXXXXXX" title="Telefon">
-                ☎️ Tel: <strong>0 (2xx) xxx xx xx</strong>
-                </a>
-                <span class="pill" title="Çalışma saatleri">
-                ⏰ <strong>Hafta içi 08:00–18:00</strong>
-                </span>
-            </div>
-
-
-            <div class="landing-badge">🌈 Sevgi • Güven • Gelişim</div>
-
-            <h1 class="landing-title">Denizli Yeni Nesil</h1>
-            <p class="landing-subtitle">
-                Çocuklarımız için güvenli, sevgi dolu ve gelişimi destekleyen bir ortam.
-                Lütfen devam etmek istediğiniz alanı seçin.
-            </p>
-
-            <div class="landing-actions">
-
-                <a class="landing-button" href="/gunduz-bakim-evi/">
-                    <div class="landing-button-row">
-                        <div class="landing-icon daycare">🧸</div>
-                        <div>
-                            <div class="landing-button-title">Gündüz Bakım Evi</div>
-                            <div class="landing-button-desc">
-                                Gün içinde bakım, oyun, etkinlik ve temel gelişim desteği.
-                            </div>
+    <section class="section height-100">
+        <div class="content-cont width-100 color-alt-dark">
+            <h2>Denizli Yeninesil</h2>
+            <h3>Belki bir slogan da buraya</h3>
+            <h4>slogan buraya</h4>
+        </div>
+        <div class="img-cont">
+            <img class="img-landing" src="../static/bgimg.png" alt="">
+            <div class="card-holder width-80 height-50">
+                <a class="height-100 width-30" href="/gunduz-bakim-evi/">
+                    <div class="card-1 glass height-100 width-100">
+                        <div class="card-img-cont width-100">
+                            <img class="card-img" src="../static/robot.png" alt="">
+                        </div>
+                        <div class="card-content-cont pb-2 color-main-dark width-100">
+                            <h2 class="text-alg">Gündüz Bakım Evi</h2>
+                            <h3 class="text-alg">3-5 Yaş Arası</h3>
+                            <h4 class="text-alg">
+                                Oyun tabanlı öğrenme, yaratıcı keşifler ve sosyal gelişim.
+                            </h4>
+                            <button class="width-80 color-main-dark mt-2">Deneme</button>
                         </div>
                     </div>
                 </a>
-
-                <a class="landing-button" href="/anaokulu/">
-                    <div class="landing-button-row">
-                        <div class="landing-icon kindergarten">🎒</div>
-                        <div>
-                            <div class="landing-button-title">Anaokulu</div>
-                            <div class="landing-button-desc">
-                                Okul öncesi eğitim, sosyal gelişim ve hazırbulunuşluk çalışmaları.
-                            </div>
+                <a class="height-100 width-30" href="/anaokulu/">
+                    <div class="card-1 glass height-100 width-100">
+                        <div class="card-img-cont width-100">
+                            <img class="card-img" src="../static/robotakademik.png" alt="">
+                        </div>
+                        <div class="card-content-cont pb-2 color-main-dark width-100">
+                            <h2 class="text-alg">Anaokulu</h2>
+                            <h3 class="text-alg">5-6 Yaş Arası</h3>
+                            <h4 class="text-alg">
+                                Erken akademik gelişim, okula hazırlık. Özgüven gelişimi
+                            </h4>
+                            <button class="width-80 color-main-dark mt-2">Deneme</button>
                         </div>
                     </div>
                 </a>
-
-            </div>
-
-            <div class="landing-hint">
-                İsterseniz önce birini seçin; sonra sayfadan diğerine geçebilirsiniz.
-            </div>
-            <div class="landing-bottombar">
-            <div class="landing-address">
-            📍 <span><strong>Adres:</strong> (Mahalle/Cadde, Denizli)</span>
-            </div>
-            <div>
-            🗺️ <a class="pill" href="#" style="padding: 6px 10px; font-size: 12px;">Haritada Aç</a>
-            </div>
             </div>
         </div>
     </section>
-
 </body>
 </html>
