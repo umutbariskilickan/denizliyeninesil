@@ -131,6 +131,12 @@ h6 { font-size: 0.85rem; line-height: 1.4; }
 .color-alt-mid{ color: rgb(141, 141, 141);}
 .color-alt-dark{ color: rgb(48, 48, 48);}
 
+.color-pink { color: rgb(167, 84, 142);}
+.color-yellow {color: rgb(186, 236, 69);}
+
+.bg-color-pink { background-color: rgb(167, 84, 142);}
+.bg-color-yellow {background-color: rgb(186, 236, 69);}
+
 .bg-color-main-light{ background-color: rgb(125, 187, 202);}
 .bg-color-main-mid{ background-color: rgb(57, 162, 189);}
 .bg-color-main-dark{ background-color: rgb(13, 80, 97);}
@@ -276,6 +282,19 @@ h6 { font-size: 0.85rem; line-height: 1.4; }
 /****ANAOKULU CSS*****/
 .liner{
     border: 2px solid;
+}
+
+.card-desing-1 {
+    overflow: hidden;
+}
+
+.kesfet{
+    margin-top: auto;
+    z-index: 2;
+}
+
+.kesfet:hover{
+    cursor: pointer;
 }
 
 /* HEADER */
