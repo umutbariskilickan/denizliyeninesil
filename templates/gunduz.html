@@ -1,86 +1,75 @@
 {% extends "base.html" %}
 
-{% block title %}Gündüz Bakım Evi | Denizli Yeni Nesil{% endblock %}
+{% block title %}Anaokulu | Denizli Yeni Nesil{% endblock %}
 
 {% block content %}
-<section class="section height-100vh slider-container"></section>
-<section class="slogan-container height-10vh bg-color-main-mid disp-grid cent-grid">
-    <h2 class="width-100 text-alg">Lorem ipsum dolor sit, amet</h2>
+<section class="section height-80vh disp-flex just-flex alg-flex">
+    <button id="slider-geri" class="height-100"> <h3>  &lt </h3> </button>
+    <div class="slider-cover width-100 height-100">
+        <div id="slider-inner" class="height-100 disp-flex">
+            <img class="height-100 slider-img" src="../static/img1.jpeg" alt="">
+            <img class="height-100 slider-img" src="../static/img2.jpeg" alt="">
+            <img class="height-100 slider-img" src="../static/bgimg.png" alt="">
+            <img class="height-100 slider-img" src="../static/colorful.png" alt="">
+            <img class="height-100 slider-img" src="../static/colorfull 2.png" alt="">
+            <img class="height-100 slider-img" src="../static/dummy.png" alt="">
+        </div>
+    </div>
+    <button id="slider-ileri" class="height-100"> <h3> &gt </h3> </button>
 </section>
-<section class="height-80vh width-100 disp-grid cent-grid">
+<section class="slogan-container height-10vh bg-color-main-mid disp-grid cent-grid">
+    <h2 class="width-100 text-alg">Gelecek Yeni Nesil İle Başlar</h2>
+</section>
+<section class="height-80vh width-100 disp-grid cent-grid bg-color-grad">
     <div class="container width-80 height-100 disp-flex alg-flex just-flex">
-        <div class="card-desing-1 height-50 width-30 m-3 border color-main-dark"></div>
-        <div class="card-desing-1 height-50 width-30 m-3 border color-main-dark"></div>
-        <div class="card-desing-1 height-50 width-30 m-3 border color-main-dark"></div>
-        <div class="card-desing-1 height-50 width-30 m-3 border color-main-dark"></div>
+        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-alt-light col-flex alg-flex just-flex">
+            <div class="card-content pt-4 disp-grid cent-grid height-100">
+                <h4 class="m-2 width-100">🎨  Oyunla Öğrenme</h4>
+                <h4 class="m-2 width-100">👩‍🏫  Uzman Eğitim Kadrosu</h4>
+                <h4 class="m-2 width-100">🧩  Bireysel Gelişim</h4>
+                <h4 class="m-2 width-100">🌿  Güvenli ve Hijyenik Ortam</h4>
+            </div>
+            <a class="kesfet width-80 p-3 bg-color-grad color-alt-light text-alg border mb-3 ml-1 mr-1" href="#">Keşfet</a>
+        </div>
+        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-alt-light col-flex alg-flex just-flex">
+            <div class="card-content pt-4 disp-grid cent-grid height-100">
+                <h4 class="m-2 width-100">🌟 Özgüven Gelişimi</h4>
+                <h4 class="m-2 width-100">🤝 Sosyal Beceriler</h4>
+                <h4 class="m-2 width-100">🧠 Yaratıcı Düşünme</h4>
+                <h4 class="m-2 width-100">💛 Değerler Eğitimi</h4>
+            </div>
+            <button class="kesfet width-100 p-2" >Keşfet</button>
+        </div>
+        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-alt-light col-flex alg-flex just-flex">
+            <div class="card-content pt-4 disp-grid cent-grid height-100">
+                <h4 class="m-2 width-100">🥗 Dengeli Beslenme</h4>
+                <h4 class="m-2 width-100">🍎 Taze Günlük Menü</h4>
+                <h4 class="m-2 width-100">👩‍🍳 Uzman Aşçı Hazırlığı</h4>
+                <h4 class="m-2 width-100">🧃 Sağlıklı Atıştırmalıklar</h4>
+            </div>
+            <button class="kesfet width-100 p-2" >Keşfet</button>
+        </div>
     </div>
 </section>
-<section class="height-80vh disp-grid cent-grid">
+<section class="height-100vh disp-grid cent-grid">
     <div class="height-80 disp-flex alg-flex just-flex">
         <div class="text-box text-right p-1 m-3 color-main-dark width-30">
             <h4>VİZYON</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur 
-                minus sequi libero explicabo nulla facere, 
-                aliquid ipsa id minima repellat, odit voluptatem 
-                iste et! Architecto eveniet provident doloribus 
-                corporis labore numquam necessitatibus facere 
-                laudantium enim! Rem esse voluptatem ut a ab. 
-                Id architecto magnam laboriosam vel? Facilis.</p>
+            <p class="p-2">Erken çocukluk eğitiminde yenilikçi, bilimsel ve çocuk merkezli yaklaşımları benimseyen; her çocuğun bireysel potansiyelini keşfederek en üst seviyeye taşımasını sağlayan öncü bir eğitim kurumu olmak.</p>
+            <p class="p-2">Sevgi, güven ve saygı temelli bir öğrenme ortamında; sorgulayan, araştıran, üretken, özgüvenli ve topluma duyarlı bireyler yetiştirerek geleceğin güçlü nesillerinin temellerini atmak en büyük hedefimizdir.</p>
+            <p class="p-2">Akademik hazırlığın yanı sıra sosyal, duygusal ve değerler eğitimini bütüncül bir yaklaşımla ele alarak; ulusal ve uluslararası düzeyde örnek gösterilen, sürdürülebilir başarıyı ilke edinmiş bir anaokulu olmayı amaçlıyoruz.</p>
         </div> 
         <div class="liner height-80 color-main-dark"></div>  
         <div class="text-box text-left p-1 m-3 color-main-dark width-30">
             <h4>MİSYON</h4>
-            <p>Lorem ipsum dolor, sit amet consectetur 
-                minus sequi libero explicabo nulla facere, 
-                aliquid ipsa id minima repellat, odit voluptatem 
-                iste et! Architecto eveniet provident doloribus 
-                corporis labore numquam necessitatibus facere 
-                laudantium enim! Rem esse voluptatem ut a ab. 
-                Id architecto magnam laboriosam vel? Facilis.</p>
+            <p class="p-2">Her çocuğun benzersiz bir potansiyele sahip olduğuna inanarak; güvenli, sevgi dolu ve destekleyici bir eğitim ortamında onların bilişsel, sosyal, duygusal ve fiziksel gelişimlerini bütüncül bir yaklaşımla desteklemek temel misyonumuzdur.</p>
+            <p class="p-2">Oyun temelli ve deneyim odaklı öğrenme modelleriyle çocuklarımızın merak duygusunu beslemek, problem çözme becerilerini geliştirmek ve özgüven kazanmalarını sağlamak için nitelikli eğitim programları uygulamaktayız.</p>
+            <p class="p-2">Aile iş birliğini esas alan, değerler eğitimini önemseyen ve sürekli gelişimi ilke edinmiş bir anlayışla; mutlu, sorumluluk sahibi ve hayata hazır bireyler yetiştirmek için kararlılıkla çalışıyoruz.</p>
         </div> 
     </div>
 </section>
-<section class="height-50vh bg-color-main-mid disp-grid cent-grid">
-    
-    <div class="width-80 height-100 disp-flex alg-flex just-flex">
 
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-    </div>
-</section>
 
-<section class="height-50vh width-100 bg-color-alt-light color-main-dark disp-grid cent-grid">
 
-    <h3 class="width-30 height-30 text-alg">Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. 
-        Blanditiis dolore autem porro 
-        quod, modi architecto aspernatur 
-        itaque nobis quibusdam, doloribus 
-        corrupti minus excepturi quidem. 
-        Iure.
-    </h3>
 
-</section>
 {% endblock %}

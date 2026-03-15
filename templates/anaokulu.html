@@ -4,29 +4,34 @@
 
 {% block content %}
 <section class="section height-80vh disp-flex just-flex alg-flex">
-    <button class="slider-geri height-100 width-10"> <h3>  &lt </h3> </button>
-    <div class="slider-cover width-80 height-100">
-        <div class="slider-inner height-100">
-
+    <button id="slider-geri" class="height-100"> <h3>  &lt </h3> </button>
+    <div class="slider-cover width-100 height-100">
+        <div id="slider-inner" class="height-100 disp-flex">
+            <img class="height-100 slider-img" src="../static/img1.jpeg" alt="">
+            <img class="height-100 slider-img" src="../static/img2.jpeg" alt="">
+            <img class="height-100 slider-img" src="../static/bgimg.png" alt="">
+            <img class="height-100 slider-img" src="../static/colorful.png" alt="">
+            <img class="height-100 slider-img" src="../static/colorfull 2.png" alt="">
+            <img class="height-100 slider-img" src="../static/dummy.png" alt="">
         </div>
     </div>
-    <button class="slider-ileri height-100 width-10"> <h3> &gt </h3> </button>
+    <button id="slider-ileri" class="height-100"> <h3> &gt </h3> </button>
 </section>
 <section class="slogan-container height-10vh bg-color-main-mid disp-grid cent-grid">
-    <h2 class="width-100 text-alg">Lorem ipsum dolor sit, amet</h2>
+    <h2 class="width-100 text-alg">Gelecek Yeni Nesil İle Başlar</h2>
 </section>
-<section class="height-80vh width-100 disp-grid cent-grid">
+<section class="height-80vh width-100 disp-grid cent-grid bg-color-grad">
     <div class="container width-80 height-100 disp-flex alg-flex just-flex">
-        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-main-dark color-alt-light col-flex alg-flex just-flex">
+        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-alt-light col-flex alg-flex just-flex">
             <div class="card-content pt-4 disp-grid cent-grid height-100">
                 <h4 class="m-2 width-100">🎨  Oyunla Öğrenme</h4>
                 <h4 class="m-2 width-100">👩‍🏫  Uzman Eğitim Kadrosu</h4>
                 <h4 class="m-2 width-100">🧩  Bireysel Gelişim</h4>
                 <h4 class="m-2 width-100">🌿  Güvenli ve Hijyenik Ortam</h4>
             </div>
-            <button class="kesfet width-100 p-2" >Keşfet</button>
+            <a class="kesfet width-80 p-3 bg-color-grad color-alt-light text-alg border mb-3 ml-1 mr-1" href="#">Keşfet</a>
         </div>
-        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-pink color-alt-light col-flex alg-flex just-flex">
+        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-alt-light col-flex alg-flex just-flex">
             <div class="card-content pt-4 disp-grid cent-grid height-100">
                 <h4 class="m-2 width-100">🌟 Özgüven Gelişimi</h4>
                 <h4 class="m-2 width-100">🤝 Sosyal Beceriler</h4>
@@ -35,7 +40,7 @@
             </div>
             <button class="kesfet width-100 p-2" >Keşfet</button>
         </div>
-        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-main-dark color-alt-light col-flex alg-flex just-flex">
+        <div class="card-desing-1 height-50 width-30 m-4 border bg-color-alt-light col-flex alg-flex just-flex">
             <div class="card-content pt-4 disp-grid cent-grid height-100">
                 <h4 class="m-2 width-100">🥗 Dengeli Beslenme</h4>
                 <h4 class="m-2 width-100">🍎 Taze Günlük Menü</h4>
@@ -63,45 +68,7 @@
         </div> 
     </div>
 </section>
-<section class="height-80vh bg-color-main-mid disp-grid cent-grid">
-    
-    <div class="width-80 height-100 disp-flex alg-flex just-flex">
 
-        
-            <div class=""></div>
-        
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-        <a class="width-10 height-30 color-alt-light border m-1" href="#">
-            <div class=""></div>
-        </a>
-    </div>
-</section>
 
-<section class="height-80vh width-100 bg-color-alt-light color-main-dark disp-grid cent-grid">
-
-    <h3 class="width-30 height-30 text-alg">Lorem ipsum dolor sit amet 
-        consectetur adipisicing elit. 
-        Blanditiis dolore autem porro 
-        quod, modi architecto aspernatur 
-        itaque nobis quibusdam, doloribus 
-        corrupti minus excepturi quidem. 
-        Iure.
-    </h3>
-
-</section>
 
 {% endblock %}

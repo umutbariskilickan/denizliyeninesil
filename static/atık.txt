@@ -1,0 +1,27 @@
+<section class="height-80vh bg-color-rev-grad disp-grid cent-grid">
+    
+    <div class="width-80 height-100 disp-flex alg-flex just-flex">
+
+        
+            <div class=""></div>
+        
+        <a class="width-10 height-30 color-alt-light border m-1" href="#">
+            <div class=""></div>
+        </a>
+        <a class="width-10 height-30 color-alt-light border m-1" href="#">
+            <div class=""></div>
+        </a>
+        <a class="width-10 height-30 color-alt-light border m-1" href="#">
+            <div class=""></div>
+        </a>
+        <a class="width-10 height-30 color-alt-light border m-1" href="#">
+            <div class=""></div>
+        </a>
+        <a class="width-10 height-30 color-alt-light border m-1" href="#">
+            <div class=""></div>
+        </a>
+        <a class="width-10 height-30 color-alt-light border m-1" href="#">
+            <div class=""></div>
+        </a>
+    </div>
+</section>
